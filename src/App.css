@@ -1,0 +1,71 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.emoji {
+  font-weight: normal;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.instructions {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.waveForm {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.waveText {
+  padding: 8px;
+  border-radius:5px;
+  border: 0;
+  background-color:white;
+}
+
+.waveButton {
+  margin-left: 5px;
+  cursor: pointer;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  background-color: maroon; 
+  color: white; 
+}
+
+.connectWalletButton {
+  margin-top: 8px;
+  cursor: pointer;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  background-color: maroon;
+  color: white;
+}
+
+.waveCount {
+  text-align: center;
+  color: maroon;
+}
