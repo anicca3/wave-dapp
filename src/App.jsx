@@ -137,11 +137,23 @@ const App = () => {
       console.log(error);
     }
   }
+  
+  const checkNetwork = async () => {
+    try { 
+      console.log(window.ethereum.networkVersion)
+      if (window.ethereum.networkVersion !== '4') {
+        alert("Please connect to Rinkeby!")
+      }
+    } catch(error) {
+      console.log(error)
+    }
+  };
 
   /*
   * This runs our function when the page loads.
   */
   useEffect(() => {
+    checkNetwork();
     getAllWaves();
     checkIfWalletIsConnected();
   }, [])
